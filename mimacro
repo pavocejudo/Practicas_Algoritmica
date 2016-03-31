@@ -1,7 +1,0 @@
-#!/bin/bash -vx
-echo "" >> salida.dat
-i=1000
-while [ $i -lt 10000 ]; do
-./mergesort $i >> salida.dat
-let i=i+1000
-done
